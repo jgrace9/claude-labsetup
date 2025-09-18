@@ -1,14 +1,33 @@
 # Network Automation Fundamentals Lab
 
-## Quick Start
+## Overview
 - **Estimated Time:** 2-3 hours
 - **Prerequisites:** Python basics, file I/O, basic networking concepts
 - **Due Date:** [Insert date]
 - **Submission:** Push completed code to this repository
 
-## What You'll Build
+### What You'll Build
 A Python program that parses network device data from multiple file formats (JSON, YAML, XML, CSV) and generates summary reports.
 
+### File Structure
+```
+network-automation-lab/
+├── data/
+│   ├── devices.json      # Device inventory data
+│   ├── interfaces.yaml   # Interface configuration data
+│   ├── vlans.xml        # VLAN definitions
+│   └── inventory.csv    # Device inventory with locations
+├── logs/
+│   └── lab.log          # Your program's output logs
+├── src/
+│   ├── __init__.py
+│   ├── main.py          # YOUR CODE GOES HERE
+│   ├── parser_utils.py  # Pre-built parsing functions
+│   └── network_device.py # NetworkDevice class
+├── tests/
+├── README.md            # This file
+└── requirements.txt
+```
 ## Instructions
 
 ### Step 1: Setup
@@ -42,26 +61,7 @@ c. **Add logging:**
 1. Run your program: `python src/main.py`
 2. Check `logs/lab.log` for required log messages
 3. Verify output matches expected format
-
-## File Structure
-```
-network-automation-lab/
-├── data/
-│   ├── devices.json      # Device inventory data
-│   ├── interfaces.yaml   # Interface configuration data
-│   ├── vlans.xml        # VLAN definitions
-│   └── inventory.csv    # Device inventory with locations
-├── logs/
-│   └── lab.log          # Your program's output logs
-├── src/
-│   ├── __init__.py
-│   ├── main.py          # YOUR CODE GOES HERE
-│   ├── parser_utils.py  # Pre-built parsing functions
-│   └── network_device.py # NetworkDevice class
-├── tests/
-├── README.md            # This file
-└── requirements.txt
-```
+'''
 
 ## Expected Output
 Your program should generate console output similar to:
