@@ -1,4 +1,4 @@
-# Network Automation Fundamentals Lab
+# Lab 1: Network Automation Fundamentals
 
 ## Overview
 - **Estimated Time:** 2-3 hours
